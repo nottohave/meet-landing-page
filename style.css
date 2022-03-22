@@ -132,4 +132,10 @@ textarea, select {
 
 .uppercase { text-transform: uppercase;}
 
-.letter-spacing-1 { letter-spacing: 4px; }
+.letter-spacing-1 { letter-spacing: 4px; };
+
+.fs-800 { font-size: var(--fs-800); }
+.fs-700 { font-size: var(--fs-700); }
+.fs-600 { font-size: var(--fs-600); }
+.fs-500 { font-size: var(--fs-500); }
+
