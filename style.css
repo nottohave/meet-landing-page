@@ -38,6 +38,7 @@
 body,
 h1, h2, h3, h4, h5, p,
 figure, picture {
+    padding: 0;
     margin: 0;
 }
 
@@ -69,18 +70,18 @@ textarea, select {
     font: inherit;
 }
 
-/* Respect for choices turning off animation */
-@media (prefers-reduced-motion: reduce) {
-    *, 
+/* remove animations for people who've turned them off */
+@media (prefers-reduced-motion: reduce) {  
+    *,
     *::before,
     *::after {
-        animation-duration: 0.01ms !important;
-        animation-iteration-count: 1 !important;
-        transition-duration: 0.01ms !important;
-        scroll-behavior: auto !important;
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
     }
-}
-
+  }
+  
 /* ------------------- */
 /* UTILITY CLASSES     */
 /* ------------------- */
