@@ -148,6 +148,14 @@ textarea, select {
 /* ------------------- */
 /* COMPONENTS          */
 /* ------------------- */
+.line {
+    content: "";
+    height: 100px;
+    width: 1px;
+    background-color: hsl(var(--clr-brown));
+    opacity: 0.2;
+}
+
 .number {
     width: 56px;
     height: 56px;
@@ -157,6 +165,13 @@ textarea, select {
     align-items: center;
     border: 1px rgba(235, 235, 235, 0.96) solid;
     color: hsl(var(--clr-brown));
+}
+
+.line-number {
+    flex-direction: column;
+    gap: 0;
+    justify-content: center;
+    align-items: center;
 }
 
 .rectangle {
@@ -184,6 +199,7 @@ textarea, select {
     padding: 2rem;
 }
 
+
 /* ------------------- */
 /* COMPONENTS HEADER   */
 /* ------------------- */
@@ -201,3 +217,4 @@ textarea, select {
 /* ------------------- */
 /* INDEX HEADER   */
 /* ------------------- */
+
