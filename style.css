@@ -166,17 +166,38 @@ textarea, select {
     background: aliceblue;
 }
 
+.green-rectangle {
+    position: relative;
+    border-radius: 10px;
+    background-image: url(./assets/desktop/image-footer.jpg);
+    background-repeat: no-repeat;
+}
+
+.overlay {
+    top: 0px; 
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: hsl(var(--clr-darkgreen));
+    opacity: 0.9;
+    border-radius: 10px;
+    padding: 2rem;
+}
+
 /* ------------------- */
-/* HEADER              */
+/* COMPONENTS HEADER   */
 /* ------------------- */
-body header {
+.just-tat {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
 }
 
-header h1 {
+.just-tat-um {
     opacity: 0.25;
 }
 
+/* ------------------- */
+/* INDEX HEADER   */
+/* ------------------- */
