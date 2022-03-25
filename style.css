@@ -123,6 +123,8 @@ textarea, select {
 .text-brown { color: hsl( var(--clr-brown) );}
 .text-green { color: hsl( var(--clr-green) );}
 .text-mint { color: hsl( var(--clr-mint) );}
+.text-pink { color: hsl( var(--clr-pink) );}
+
 
 .text-white { color: hsl( var(--clr-white) );}
 
@@ -147,6 +149,10 @@ textarea, select {
 .fs-600 {
     line-height: 1.1;
 }
+
+.uppercase { text-transform: uppercase;}
+.bold { font-weight: 900;}
+.medium { font-weight: 500;}
 
 /* ------------------- */
 /* COMPONENTS          */
@@ -250,8 +256,13 @@ body {
 
 .btn_groups button {
     border: 0;
-    padding: 10px 20px;
-    border-radius: 20px;
+    padding: 20px 35px;
+    border-radius: 30px;
+}
+
+.btn__green,
+.btn__purple {
+    font-weight: 900;
 }
 
 .article-body {
@@ -259,5 +270,5 @@ body {
 }
 
 .article-body div {
-    text-transform: uppercase;
+    font-weight: 600;
 }
