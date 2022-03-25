@@ -7,8 +7,8 @@
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;900&display=swap" rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;900&display=swap" rel="stylesheet"> 
+  
   <!-- CSS file -->
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon-32x32.png">  
   <link rel="stylesheet" href="style.css">
@@ -20,7 +20,10 @@
     <picture class="logo flex">
       <img src="./assets/logo.svg" alt="logo">
     </picture>
-  
+
+    <!--------------------------------->
+    <!-- GROUP CHAT FOR DESKTOP -->
+    <!--------------------------------->
     <div class="group-chat__desktop">
       <picture>
         <img src="./assets/desktop/image-hero-left.png" alt="left hero image">
@@ -28,17 +31,20 @@
 
       <div class="content">
         <h1 class="text-accent">Group Chat for Everyone</h1>
-        <p>
+        <p class="medium text-brown">
           Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.
         </p>
 
-        <button class="btn__green">
-          Download <span>v1.3</span>
-        </button>
-
-        <button class="btn__purple">
-          What is it?
-        </button>
+        <div class="btn_groups flex">
+          <button class="btn__green bg-green text-white ">
+            Download <span class="text-mint">v1.3</span>
+          </button>
+  
+          <button class="btn__purple bg-purple text-white">
+            What is it?
+          </button>
+  
+        </div>
 
       </div>
 
@@ -47,6 +53,9 @@
       </picture>
     </div>
 
+    <!--------------------------------->
+    <!-- GROUP CHAT FOR TABLET -->
+    <!--------------------------------->
     <div class="group-chat__tablet">
       <picture class="hero-tablet">
         <img src="./assets/tablet/image-hero.png" alt="hero image">
@@ -54,7 +63,7 @@
 
       <div class="content flex">
         <h1 class="fs-800 line-height-3">Group Chat for Everyone</h1>
-        <p class="text-brown ">
+        <p  class="medium text-brown">
           Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.
         </p>
 
@@ -73,8 +82,13 @@
     </div>
   </header>
 
-  <main class="main_container">
 
+
+  <!--------------------------------->
+  <!-- MAIN CONTENT -->
+  <!--------------------------------->
+
+  <main class="main_container">
     <div class="line-number flex">
       <div class="line"></div>
       <div class="number">
@@ -90,14 +104,20 @@
     </div>
 
     <article class="flex article-body">
-      <div class="fs-600 text-green ">built for modern use</div>
-      <h2>Smarter meetings, all in one place</h2>
-      <p>
+      <div class="fs-500 text-green uppercase line-height-1 letter-spacing-1">built for modern use</div>
+      <h2 class="fs-700 bold">Smarter meetings, all in one place</h2>
+      <p class="text-brown medium">
         Send messages, share files, show your screen, and record your meetings — all in one 
         workspace. Control who can join with invite-only team access, data encryption, and data export.
       </p>
     </article>
+
   </main>
+
+
+  <!--------------------------------->
+  <!-- FOOTER CONTENT -->
+  <!--------------------------------->
 
   <footer class="footer_container">
     <div class="line-number flex">
@@ -107,16 +127,18 @@
       </div>
     </div>
 
-    <h3>Experience more together</h3>
+    <section class="footer__content">
+      <h3 class="fs-800 bold text-white">Experience more together</h3>
 
-    <p>
-      Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.
-    </p>
-
-    <button class="btn__purple">
-      Download <span>v1.3</span>
-    </button>
-
+      <p class="text-white medium">
+        Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.
+      </p>
+  
+      <button class="btn__purple bg-purple text-white">
+        Download <span class="text-pink">v1.3</span>
+      </button>
+    
+    </section>
   </footer>
 
 </body>
