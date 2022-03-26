@@ -265,10 +265,16 @@ body {
     font-weight: 900;
 }
 
-
-.content > .btn_groups {
-    place-content: center;
+.btn_groups {
+    flex-direction: column;
+    align-items: center;
 }
+
+.btn__green, 
+.btn__purple {
+    width: max-content;
+}
+
 
 /* ------------------- */
 /* BODY   */
