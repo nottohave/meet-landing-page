@@ -399,6 +399,7 @@ body {
 .content h1 {
     font-size: var(--fs-700);
     max-width: 70%;
+    line-height: 44px;
 }
 
 .content p {
@@ -430,6 +431,7 @@ body {
 
 .footer__content h3 {
     font-size: var(--fs-650);
+    max-width: unset;
 }
 
 .footer__content p {
