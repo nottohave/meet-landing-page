@@ -15,7 +15,8 @@
 
   <title>Frontend Mentor | Meet landing page</title>
 </head>
-<body>
+
+<body class="grid">
   <header class="header_container flex">
     <picture class="logo flex">
       <img src="./assets/logo.svg" alt="logo">
@@ -62,7 +63,7 @@
 
       <div class="content flex">
         <h1 class="fs-800 line-height-3">Group Chat for Everyone</h1>
-        <p  class="medium text-brown">
+        <p class="medium text-brown">
           Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.
         </p>
 
@@ -85,14 +86,14 @@
 
   <main class="main_container">
 
-    <div class="line-number flex">
+    <div class="line-number1 flex">
       <div class="line"></div>
       <div class="number">
         01
       </div>
     </div>
 
-    <div class="carousel">
+    <div class="carousel flex">
       <img src="./assets/desktop/image-woman-in-videocall.jpg" alt="women smiling in video call">
       <img src="./assets/desktop/image-women-videochatting.jpg" alt="group of 3 people smiling in video call">
       <img src="./assets/desktop/image-men-in-meeting.jpg" alt="men in meeting">
@@ -114,29 +115,33 @@
   <!--------------------------------->
   <!-- FOOTER CONTENT -->
   <!--------------------------------->
-  <div class="line-number flex">
-    <div class="line"></div>
-    <div class="number">
-      02
+  <footer class="number_footer">
+    <div class="line-number2 flex">
+      <div class="line"></div>
+      <div class="number">
+        02
+      </div>
     </div>
-  </div>
-
-  <footer class="footer_container green-rectangle">
-    <div class="overlay">
-
-
-    <section class="footer__content flex">
-      <h3 class="fs-800 bold text-white">Experience more together</h3>
-
-      <p class="text-white medium">
-        Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.
-      </p>
   
-      <button class="btn__purple bg-purple text-white">
-        Download <span class="text-pink">v1.3</span>
-      </button>
+    <div class="footer_container green-rectangle">
+      <div class="overlay">
+
+  
+        <section class="footer__content flex">
+          <h3 class="fs-800 bold text-white">Experience more together</h3>
     
-    </section>
+          <p class="text-white medium">
+            Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.
+          </p>
+      
+          <button class="btn__purple bg-purple text-white">
+            Download <span class="text-pink">v1.3</span>
+          </button>
+        
+        </section>  
+      </div>
+    </div>
+
   </footer>
 
 </body>
