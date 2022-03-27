@@ -192,7 +192,7 @@ textarea, select {
 
 .green-rectangle {
     position: relative;
-    background-image: url(./assets/tablet/image-footer.jpg);
+    background-image: url(./assets/mobile/image-footer.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -241,10 +241,28 @@ body {
     place-content: center;
 } 
 
+/* ------------------- */
+/* BACKGROUND IMAGE    */
+/* ------------------- */
+
+/* TABLET */
+@media (min-width: 35em) {
+    .green-rectangle {
+        background-image: url(./assets/tablet/image-footer.jpg);
+    }
+}
 
 /* ------------------- */
 /* INDEX HEADER   */
 /* ------------------- */
+
+/* ----------------------- */
+/* TABLET SIZE */
+/* ----------------------- */
+/* @media (min-width: 35em) {
+
+} */
+
 .header_container {
     flex-direction: column;
     margin-top: 3rem;
@@ -372,5 +390,51 @@ body {
 .footer__content p {
     max-width: 50ch;
     text-align: center;
+}
+
+/* ----------------------- */
+/* MOBILE SCREEN */
+/* ----------------------- */
+
+.content h1 {
+    font-size: var(--fs-700);
+    max-width: 70%;
+}
+
+.content p {
+    max-width: 30ch;
+}
+
+.btn_groups {
+    flex-direction: column;
+    align-items: center;
+    width: unset;
+}
+
+.carousel {
+    display: flex;
+    justify-content: space-around;
+    height: 20rem;
+    flex-wrap: wrap;
+    place-content: unset;
+}
+
+.article-body h2 {
+    font-size: var(--fs-650);
+    max-width: 80%;
+}
+
+.article-body p {
+    max-width: 31ch;
+}
+
+.footer__content h3 {
+    font-size: var(--fs-650);
+}
+
+.footer__content p {
+    max-width: 25ch;
+    font-size: 1.125rem;
+    line-height: 26px;
 }
 
