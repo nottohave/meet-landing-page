@@ -451,10 +451,25 @@ body {
     .footer__content p {
         max-width: unset;
     }
+}
+
+@media (min-width: 70rem) {
+    
+    .group-chat__tablet {
+        display: none;
+    }
+
+    .group-chat__desktop {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .btn_groups {
+        width: unset;
+    }
 
 
 }
-
 
 
 
