@@ -284,8 +284,6 @@ body {
     align-items: center;
 }
 
-
-
 /* LINE NUMBER 2 */
 .number_footer {
     position: relative;
@@ -415,7 +413,7 @@ body {
 /* ----------------------- */
 /* TABLET SIZE */
 /* ----------------------- */
-@media (min-width: 35em) {
+@media (min-width: 40em) {
 
     .content p,
     .article-body p {
@@ -435,8 +433,8 @@ body {
     }
 
     .carousel {
-        justify-content: space-evenly;
-        height: unset;
+        grid-template-columns: repeat(4, 10.75rem);
+        grid-template-rows: unset;
     }
     
     .article-body h2 {
