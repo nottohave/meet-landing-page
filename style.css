@@ -262,13 +262,18 @@ body {
 
 /* IMG Carousel */
 .carousel {
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+    grid-template-rows: repeat(2, min-content);
+    gap: 20px;
     place-content: center;
-    flex-wrap: warp;
 }
 
-.carousel img {
-    max-width: 20%;
-    height: 9.75rem;
+.carousel picture {
+    border-radius: 10px;
+}
+
+.carousel picture img {
     border-radius: 10px;
 }
 
@@ -378,13 +383,6 @@ body {
     width: unset;
 }
 
-.carousel {
-    display: flex;
-    justify-content: space-around;
-    height: 20rem;
-    flex-wrap: wrap;
-    place-content: unset;
-}
 
 .article-body div {
     font-weight: 600;
@@ -438,6 +436,7 @@ body {
 
     .carousel {
         justify-content: space-evenly;
+        height: unset;
     }
     
     .article-body h2 {
