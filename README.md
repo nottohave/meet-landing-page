@@ -73,11 +73,7 @@ Turn off animation for user prefer it to be off:
     }
   }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
+
 
 ### Continued development
 _ Add animation for text to appears when user scrolls to content.
@@ -93,5 +89,5 @@ _ Add animation for text to appears when user scrolls to content.
 - Frontend Mentor - [@nottohave](https://www.frontendmentor.io/profile/nottohave)
 
 ## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+Thank you for frontendmentor creating this challenge. 
+[Meet landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/meet-landing-page-rbTDS6OUR)
