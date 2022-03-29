@@ -74,9 +74,6 @@ Turn off animation for user prefer it to be off:
   }
 ```
 
-### Continued development
-_ Add animation for text to appears when user scrolls to content.
-
 
 ### Useful resources
 
