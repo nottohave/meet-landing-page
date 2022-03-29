@@ -463,6 +463,10 @@ button:hover {
 
 @media (min-width: 70rem) {
     
+    body {
+        place-content: unset;
+    }
+
     .group-chat__tablet {
         display: none;
     }
@@ -475,6 +479,7 @@ button:hover {
     .group-chat__desktop {
         display: flex;
         flex-direction: row;
+        place-content: center;
     }
 
     .btn_groups {
@@ -530,6 +535,4 @@ button:hover {
         margin-left: 5px;
     }
 }
-
-
 
