@@ -191,12 +191,6 @@ textarea, select {
     background: aliceblue;
 }
 
-.green-rectangle {
-    position: relative;
-    background-image: url(./assets/mobile/image-footer.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
 .overlay {
     top: 0px; 
@@ -248,16 +242,30 @@ body {
 /* BACKGROUND IMAGE    */
 /* ------------------- */
 
-/* TABLET */
+/* Mobile background */
+.green-rectangle {
+    position: relative;
+    background-image: url(./assets/mobile/image-footer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* TABLET background */
 @media (min-width: 35em) {
     .green-rectangle {
         background-image: url(./assets/tablet/image-footer.jpg);
     }
 }
 
-/* ------------------- */
-/* INDEX HEADER   */
-/* ------------------- */
+/* DESKTOP BACKGROUND */
+@media (min-width: 70em) {
+    .green-rectangle {
+        background-image: url(./assets/desktop/image-footer.jpg);
+    }
+}
+
+
 
 /* ------------------- */
 /* BODY   */
@@ -499,9 +507,6 @@ button:hover {
         height: 24.5rem;
     }
 
-    .green-rectangle {
-        background-image: url(./assets/desktop/image-footer.jpg);
-    }
 
     .footer__content {
         flex-direction: row;
