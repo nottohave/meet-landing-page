@@ -420,6 +420,10 @@ button:hover {
 /* ----------------------- */
 @media (min-width: 40em) {
 
+    body {
+        place-content: unset;
+    }
+
     .content p,
     .article-body p {
         max-width: 50ch;
@@ -463,9 +467,6 @@ button:hover {
 
 @media (min-width: 70rem) {
     
-    body {
-        place-content: unset;
-    }
 
     .group-chat__tablet {
         display: none;
