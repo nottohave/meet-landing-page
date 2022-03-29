@@ -81,7 +81,7 @@ _ Add animation for text to appears when user scrolls to content.
 ### Useful resources
 
 - [MDN](https://developer.mozilla.org/en-US/) - Check back on knownledge of using flex-wrap, grid template columns or rows on flex box and grid.
--[Previous-Resource](https://github.com/nottohave/space-travel-website-practice) - old resource for reference when I need help looking back on how to build css custom properties.
+- [Previous-Resource](https://github.com/nottohave/space-travel-website-practice) - old resource for reference when I need help looking back on how to build css custom properties.
 
 ## Author
 
