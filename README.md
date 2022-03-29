@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Solution Site](https://www.frontendmentor.io/solutions/meet-landing-page-H1nfvZg79)
 - Live Site URL: [Meet Landing Page](https://nottohave.github.io/meet-landing-page/)
 
 ## My process
